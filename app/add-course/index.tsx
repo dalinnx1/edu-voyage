@@ -74,7 +74,6 @@ export default function AddCoursePage() {
                 }
             });
             setResultText("Courses Created Successfully!");
-            if(Platform.OS === "web") router.push("/(tabs)/home")
             Alert.alert("Courses Created Successfully!", "", [
                 {
                     text: "OK",
